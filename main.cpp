@@ -16,13 +16,13 @@ int main() {
     std::string encryption = encryptFile(data, key);
     std::cout << "Encrypted" << "\n";
 
-    //Output file stores encrypted data
+    //Output file stores encryption
     if (!saveToFile(outputFile, encryption)) {
         std::cout << "Cant save encrypted data" << "\n";
         return 1;
     }
 
-    //Data is decrypted
+    //Decryption
     std::string decrypted = decryptFile(encryption, key);
     std::cout << "Decrypted" << "\n";
 
