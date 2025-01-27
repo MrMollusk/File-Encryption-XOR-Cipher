@@ -27,6 +27,6 @@ Ifmmp-!Xpsme"
 # Core Algorithm
 - **Substitution Cipher::**
   - Each character in the input text is shifted by a predefined key (e.g., +1 in the ASCII table).
-  - Non-alphabetic characters (e.g., punctuation) are handled without breaking the encryption process.
+  - Non-alphabetic characters (e.g punctuation) are handled without breaking the encryption process.
  
 
