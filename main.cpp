@@ -10,8 +10,6 @@ int main() {
 
     std::string inputFile = "input.txt";
     std::string outputFile = "output.txt";
-    
-    //Load input file data
     std::string data = loadFromFile(inputFile);
 
     //Encryption
