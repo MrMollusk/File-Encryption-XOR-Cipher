@@ -4,7 +4,6 @@
 #include "FileManager.h"
 
 int main() {
-
     //Banana will be the key for encryption/decryption
     std::string key = "banana"; 
 
