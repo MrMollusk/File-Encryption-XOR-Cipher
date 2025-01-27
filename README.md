@@ -6,13 +6,13 @@ This program provides an encryption mechanism for text files. It is designed to 
 - **C++ Compiler:** A modern C++ compiler (e.g., GCC, Clang, or MSVC).
 
 # Features
-- **XOR Cipher:** Encrypts plaintext using a simple XOR-based encryption algorithm.
+- **XOR Cipher:** Encrypts plaintext using a simple XOR based encryption algorithm.
 - **File Handling:** Reads input from a plaintext file and writes encrypted output to a new file.
 - **Cross-Platform:** Can be compiled and executed on multiple operating systems.
 
 # Uses
-1. Place your plaintext file in the working directory of the program.
-2. Specify the name of the input file and the desired output file name in the program, by default the input file is named ```input.txt``` and the output file is named ```output.txt```.
+1. Place your plaintext file in the same directory as the program.
+2. Change the name of the input file and the output file name in [main.cpp](./main.cpp), by default the input file is named ```input.txt``` and the output file is named ```output.txt```.
 3. Run the program, and the encrypted content will be written to the output file.
 
 The input file should contain the plaintext message to be encrypted. For example:
