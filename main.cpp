@@ -8,12 +8,9 @@ int main() {
     //Banana will be the key for encryption/decryption
     std::string key = "banana"; 
 
-    //Data to be encrypted will be in this file
     std::string inputFile = "input.txt";
-
-    //This file will store the encrypted data
     std::string outputFile = "output.txt";
-
+    
     //Load input file data
     std::string data = loadFromFile(inputFile);
 
