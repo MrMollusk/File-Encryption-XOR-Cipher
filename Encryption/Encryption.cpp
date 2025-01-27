@@ -2,7 +2,7 @@
 #include <iostream>
 #include <algorithm>
 
-//XOR cipher for encyrption/decryption
+//Simple XOR encryption
 std::string encryptFile(const std::string& input, const std::string& key) {
 
     std::string encrypted = input;
